@@ -1,0 +1,108 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Copperplate, Papyrus, fantasy;;
+	margin: 0;
+	background-color: #0a0719
+	}
+main{
+   width: 1199px;
+   background-image: url(../img/portadamarvel.jpg);
+	background-position: center;
+   background-size: cover;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+a{
+	text-decoration: none;
+	color: white;
+}
+h1{ font-size: 4.5em;}
+h2{font-size: 1.25em;}
+p {font-size: 1em;}
+
+
+
+.contenedor{
+	max-height: 1400px;
+	margin: 0;
+}
+
+header{
+	background-color: #0f012b;
+	display: flex;
+	height: 70px;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+ 
+nav a{
+
+	padding-right: 35px;
+
+}
+ 
+.logo{
+	display: flex;
+	margin: 0;
+	padding: 25px 30px;
+	color: #ffffff;
+	font-size: 1.6em;
+}
+
+.contenedor{
+	display: flex;
+	flex-direction: column;
+
+}
+
+
+#hero{
+	padding: 25px 30px;
+	display: flex;
+	justify-content: center;
+	flex-direction:column ;
+	height: 90vh;
+}
+footer{
+	 width: 1199px;
+	 height: 60px;
+	 background-color: #0f012b;
+	 display: flex;
+	 justify-content: space-between;
+	 align-items: center;
+ }
+
+.uces{
+	 display: flex;
+	 align-items: center;
+	 justify-content: left;
+	 margin-left: 25px;
+ }
+ .marvel{
+	 display: flex;
+	 align-items: center;
+	 justify-content: left;
+	 margin-left: 25px;
+ }
+
+.disneyplus{
+	 display: flex;
+	 align-items: center;
+	 justify-content: space-between;
+	 margin-right: 45px;
+	 width: 60px;
+	 height: 25px;
+
+ }
+
+h3{
+	color: #ffffff;
+	 font-weight: 400;
+	 font-size: 22px;
+	 text-decoration: none;
+ }
